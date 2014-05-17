@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>DE7B38C3-C46B-4E14-9DCE-FF4885697720</string>
+	<string>2864C131-0702-4EED-858B-233CB0062370</string>
 	<key>IDESourceControlProjectName</key>
 	<string>QMBModalNavigationController-Sample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>F550AAD0-673B-428D-B1BD-C678C4EF8988</string>
 			<key>IDESourceControlWCCName</key>
-			<string>QMBModalNavigationController</string>
+			<string>QMBModalNavigationController-Sample</string>
 		</dict>
 	</array>
 </dict>

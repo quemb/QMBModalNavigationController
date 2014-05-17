@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67C01F9911B44AD2AE2C4DEC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB02F58CA7024B20938742B6 /* libPods.a */; };
 		E22281FC1927BB73001F5BCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22281FB1927BB73001F5BCD /* Foundation.framework */; };
 		E22281FE1927BB73001F5BCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22281FD1927BB73001F5BCD /* CoreGraphics.framework */; };
 		E22282001927BB73001F5BCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22281FF1927BB73001F5BCD /* UIKit.framework */; };
@@ -22,6 +23,7 @@
 		E22282201927BB73001F5BCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22281FF1927BB73001F5BCD /* UIKit.framework */; };
 		E22282281927BB73001F5BCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E22282261927BB73001F5BCD /* InfoPlist.strings */; };
 		E222822A1927BB73001F5BCD /* QMBModalNavigationController_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E22282291927BB73001F5BCD /* QMBModalNavigationController_SampleTests.m */; };
+		E22282361927BD99001F5BCD /* QMBModalNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22282351927BD99001F5BCD /* QMBModalNavigationControllerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BDDDAE3FCCB418DB81A0449 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AB02F58CA7024B20938742B6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22281F81927BB73001F5BCD /* QMBModalNavigationController-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QMBModalNavigationController-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22281FB1927BB73001F5BCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E22281FD1927BB73001F5BCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +59,8 @@
 		E22282251927BB73001F5BCD /* QMBModalNavigationController-SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QMBModalNavigationController-SampleTests-Info.plist"; sourceTree = "<group>"; };
 		E22282271927BB73001F5BCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E22282291927BB73001F5BCD /* QMBModalNavigationController_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMBModalNavigationController_SampleTests.m; sourceTree = "<group>"; };
+		E22282341927BD99001F5BCD /* QMBModalNavigationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QMBModalNavigationControllerViewController.h; path = ../QMBModalNavigationController/QMBModalNavigationControllerViewController.h; sourceTree = "<group>"; };
+		E22282351927BD99001F5BCD /* QMBModalNavigationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QMBModalNavigationControllerViewController.m; path = ../QMBModalNavigationController/QMBModalNavigationControllerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 				E22281FE1927BB73001F5BCD /* CoreGraphics.framework in Frameworks */,
 				E22282001927BB73001F5BCD /* UIKit.framework in Frameworks */,
 				E22281FC1927BB73001F5BCD /* Foundation.framework in Frameworks */,
+				67C01F9911B44AD2AE2C4DEC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,10 +91,12 @@
 		E22281EF1927BB73001F5BCD = {
 			isa = PBXGroup;
 			children = (
+				E22282331927BD87001F5BCD /* QMBModalNavigationController */,
 				E22282011927BB73001F5BCD /* QMBModalNavigationController-Sample */,
 				E22282231927BB73001F5BCD /* QMBModalNavigationController-SampleTests */,
 				E22281FA1927BB73001F5BCD /* Frameworks */,
 				E22281F91927BB73001F5BCD /* Products */,
+				1BDDDAE3FCCB418DB81A0449 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +116,7 @@
 				E22281FD1927BB73001F5BCD /* CoreGraphics.framework */,
 				E22281FF1927BB73001F5BCD /* UIKit.framework */,
 				E222821D1927BB73001F5BCD /* XCTest.framework */,
+				AB02F58CA7024B20938742B6 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +165,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E22282331927BD87001F5BCD /* QMBModalNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				E22282341927BD99001F5BCD /* QMBModalNavigationControllerViewController.h */,
+				E22282351927BD99001F5BCD /* QMBModalNavigationControllerViewController.m */,
+			);
+			name = QMBModalNavigationController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E222822D1927BB73001F5BCD /* Build configuration list for PBXNativeTarget "QMBModalNavigationController-Sample" */;
 			buildPhases = (
+				47A58462A82A4BADAC0C00D1 /* Check Pods Manifest.lock */,
 				E22281F41927BB73001F5BCD /* Sources */,
 				E22281F51927BB73001F5BCD /* Frameworks */,
 				E22281F61927BB73001F5BCD /* Resources */,
+				CA83FAD37ED247BFB6DA86D3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +269,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47A58462A82A4BADAC0C00D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA83FAD37ED247BFB6DA86D3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E22281F41927BB73001F5BCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -256,6 +310,7 @@
 				E22282151927BB73001F5BCD /* ViewController.m in Sources */,
 				E222820C1927BB73001F5BCD /* AppDelegate.m in Sources */,
 				E22282081927BB73001F5BCD /* main.m in Sources */,
+				E22282361927BD99001F5BCD /* QMBModalNavigationControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +442,7 @@
 		};
 		E222822E1927BB73001F5BCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDDDAE3FCCB418DB81A0449 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -400,6 +456,7 @@
 		};
 		E222822F1927BB73001F5BCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDDDAE3FCCB418DB81A0449 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -470,6 +527,7 @@
 				E222822F1927BB73001F5BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E22282301927BB73001F5BCD /* Build configuration list for PBXNativeTarget "QMBModalNavigationController-SampleTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +536,7 @@
 				E22282321927BB73001F5BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

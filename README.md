@@ -9,7 +9,7 @@
 ## Pod ##
 
 ```gem
-pod 'QMBModalNavigationController'
+pod 'QMBModalNavigationController', :git => 'https://github.com/quemb/QMBModalNavigationController.git'
 ```
 
 ## Dependencies ##

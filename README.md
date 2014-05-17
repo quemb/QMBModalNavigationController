@@ -12,6 +12,6 @@
 pod 'QMBModalNavigationController'
 ```
 
-## Dependencies ## 
+## Dependencies ##
 
 - [FontAwesomeIconFactory](https://github.com/nschum/FontAwesomeIconFactory)

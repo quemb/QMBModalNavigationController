@@ -7,7 +7,6 @@
 //
 
 #import "QMBModalNavigationControllerViewController.h"
-#import "NIKFontAwesomeIconFactory+iOS.h"
 
 @interface QMBModalNavigationControllerViewController ()
 
@@ -23,10 +22,26 @@
 
 - (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated{
     
+    // Use title if title is set up
     if (viewController == [self.viewControllers objectAtIndex:0]){
-        NIKFontAwesomeIconFactory *factory = [NIKFontAwesomeIconFactory barButtonItemIconFactory];
+        if (self.dismissText != nil){
+            
+            [viewController.navigationItem setLeftBarButtonItem:[[UIBarButtonItem alloc] initWithTitle:self.dismissText style:UIBarButtonItemStylePlain target:self action:@selector(onCloseButtonTouchUpInside:)]];
+            
+        }else {
+            // Use icon as fallback
+            if (self.icon == 0){
+                self.icon = kQMBModalNavigationControllerDefaultDismissIcon;
+            }
+            
+            NIKFontAwesomeIconFactory *factory = [NIKFontAwesomeIconFactory barButtonItemIconFactory];
+            
+            factory.colors = @[self.navigationBar.tintColor];
+            [viewController.navigationItem setLeftBarButtonItem:[[UIBarButtonItem alloc] initWithImage:[factory createImageForIcon:self.icon] style:UIBarButtonItemStylePlain target:self action:@selector(onCloseButtonTouchUpInside:)]];
+            
+        }
         
-        [viewController.navigationItem setLeftBarButtonItem:[[UIBarButtonItem alloc] initWithImage:[factory createImageForIcon:NIKFontAwesomeIconMinus] style:UIBarButtonItemStylePlain target:self action:@selector(onCloseButtonTouchUpInside:)]];
+        
     }
     
 }

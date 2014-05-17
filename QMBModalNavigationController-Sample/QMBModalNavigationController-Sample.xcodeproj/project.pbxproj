@@ -24,6 +24,7 @@
 		E22282281927BB73001F5BCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E22282261927BB73001F5BCD /* InfoPlist.strings */; };
 		E222822A1927BB73001F5BCD /* QMBModalNavigationController_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E22282291927BB73001F5BCD /* QMBModalNavigationController_SampleTests.m */; };
 		E22282361927BD99001F5BCD /* QMBModalNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22282351927BD99001F5BCD /* QMBModalNavigationControllerViewController.m */; };
+		E222823A1927C084001F5BCD /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22282391927C084001F5BCD /* ChildViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		E22282291927BB73001F5BCD /* QMBModalNavigationController_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMBModalNavigationController_SampleTests.m; sourceTree = "<group>"; };
 		E22282341927BD99001F5BCD /* QMBModalNavigationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QMBModalNavigationControllerViewController.h; path = ../QMBModalNavigationController/QMBModalNavigationControllerViewController.h; sourceTree = "<group>"; };
 		E22282351927BD99001F5BCD /* QMBModalNavigationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QMBModalNavigationControllerViewController.m; path = ../QMBModalNavigationController/QMBModalNavigationControllerViewController.m; sourceTree = "<group>"; };
+		E22282381927C084001F5BCD /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		E22282391927C084001F5BCD /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,7 @@
 		E22282011927BB73001F5BCD /* QMBModalNavigationController-Sample */ = {
 			isa = PBXGroup;
 			children = (
+				E22282371927BF3A001F5BCD /* Images */,
 				E222820A1927BB73001F5BCD /* AppDelegate.h */,
 				E222820B1927BB73001F5BCD /* AppDelegate.m */,
 				E222820D1927BB73001F5BCD /* Main_iPhone.storyboard */,
@@ -132,6 +136,8 @@
 				E22282141927BB73001F5BCD /* ViewController.m */,
 				E22282161927BB73001F5BCD /* Images.xcassets */,
 				E22282021927BB73001F5BCD /* Supporting Files */,
+				E22282381927C084001F5BCD /* ChildViewController.h */,
+				E22282391927C084001F5BCD /* ChildViewController.m */,
 			);
 			path = "QMBModalNavigationController-Sample";
 			sourceTree = "<group>";
@@ -172,6 +178,13 @@
 				E22282351927BD99001F5BCD /* QMBModalNavigationControllerViewController.m */,
 			);
 			name = QMBModalNavigationController;
+			sourceTree = "<group>";
+		};
+		E22282371927BF3A001F5BCD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +322,7 @@
 			files = (
 				E22282151927BB73001F5BCD /* ViewController.m in Sources */,
 				E222820C1927BB73001F5BCD /* AppDelegate.m in Sources */,
+				E222823A1927C084001F5BCD /* ChildViewController.m in Sources */,
 				E22282081927BB73001F5BCD /* main.m in Sources */,
 				E22282361927BD99001F5BCD /* QMBModalNavigationControllerViewController.m in Sources */,
 			);

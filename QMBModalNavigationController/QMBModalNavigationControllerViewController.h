@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NIKFontAwesomeIconFactory+iOS.h"
+
+static int kQMBModalNavigationControllerDefaultDismissIcon = NIKFontAwesomeIconAngleDown;
 
 @interface QMBModalNavigationControllerViewController : UINavigationController<UINavigationControllerDelegate>
+
+@property (nonatomic, strong) NSString *dismissText;
+@property (nonatomic) int icon;
 
 @end

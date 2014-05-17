@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E22281FC1927BB73001F5BCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22281FB1927BB73001F5BCD /* Foundation.framework */; };
+		E22281FE1927BB73001F5BCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22281FD1927BB73001F5BCD /* CoreGraphics.framework */; };
+		E22282001927BB73001F5BCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22281FF1927BB73001F5BCD /* UIKit.framework */; };
+		E22282061927BB73001F5BCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E22282041927BB73001F5BCD /* InfoPlist.strings */; };
+		E22282081927BB73001F5BCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E22282071927BB73001F5BCD /* main.m */; };
+		E222820C1927BB73001F5BCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E222820B1927BB73001F5BCD /* AppDelegate.m */; };
+		E222820F1927BB73001F5BCD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E222820D1927BB73001F5BCD /* Main_iPhone.storyboard */; };
+		E22282121927BB73001F5BCD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22282101927BB73001F5BCD /* Main_iPad.storyboard */; };
+		E22282151927BB73001F5BCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22282141927BB73001F5BCD /* ViewController.m */; };
+		E22282171927BB73001F5BCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22282161927BB73001F5BCD /* Images.xcassets */; };
+		E222821E1927BB73001F5BCD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E222821D1927BB73001F5BCD /* XCTest.framework */; };
+		E222821F1927BB73001F5BCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22281FB1927BB73001F5BCD /* Foundation.framework */; };
+		E22282201927BB73001F5BCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22281FF1927BB73001F5BCD /* UIKit.framework */; };
+		E22282281927BB73001F5BCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E22282261927BB73001F5BCD /* InfoPlist.strings */; };
+		E222822A1927BB73001F5BCD /* QMBModalNavigationController_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E22282291927BB73001F5BCD /* QMBModalNavigationController_SampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E22282211927BB73001F5BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E22281F01927BB73001F5BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E22281F71927BB73001F5BCD;
+			remoteInfo = "QMBModalNavigationController-Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E22281F81927BB73001F5BCD /* QMBModalNavigationController-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QMBModalNavigationController-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22281FB1927BB73001F5BCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E22281FD1927BB73001F5BCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E22281FF1927BB73001F5BCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E22282031927BB73001F5BCD /* QMBModalNavigationController-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QMBModalNavigationController-Sample-Info.plist"; sourceTree = "<group>"; };
+		E22282051927BB73001F5BCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E22282071927BB73001F5BCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E22282091927BB73001F5BCD /* QMBModalNavigationController-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QMBModalNavigationController-Sample-Prefix.pch"; sourceTree = "<group>"; };
+		E222820A1927BB73001F5BCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E222820B1927BB73001F5BCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E222820E1927BB73001F5BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E22282111927BB73001F5BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E22282131927BB73001F5BCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E22282141927BB73001F5BCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E22282161927BB73001F5BCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E222821C1927BB73001F5BCD /* QMBModalNavigationController-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QMBModalNavigationController-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E222821D1927BB73001F5BCD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E22282251927BB73001F5BCD /* QMBModalNavigationController-SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QMBModalNavigationController-SampleTests-Info.plist"; sourceTree = "<group>"; };
+		E22282271927BB73001F5BCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E22282291927BB73001F5BCD /* QMBModalNavigationController_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMBModalNavigationController_SampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E22281F51927BB73001F5BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22281FE1927BB73001F5BCD /* CoreGraphics.framework in Frameworks */,
+				E22282001927BB73001F5BCD /* UIKit.framework in Frameworks */,
+				E22281FC1927BB73001F5BCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22282191927BB73001F5BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E222821E1927BB73001F5BCD /* XCTest.framework in Frameworks */,
+				E22282201927BB73001F5BCD /* UIKit.framework in Frameworks */,
+				E222821F1927BB73001F5BCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E22281EF1927BB73001F5BCD = {
+			isa = PBXGroup;
+			children = (
+				E22282011927BB73001F5BCD /* QMBModalNavigationController-Sample */,
+				E22282231927BB73001F5BCD /* QMBModalNavigationController-SampleTests */,
+				E22281FA1927BB73001F5BCD /* Frameworks */,
+				E22281F91927BB73001F5BCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E22281F91927BB73001F5BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E22281F81927BB73001F5BCD /* QMBModalNavigationController-Sample.app */,
+				E222821C1927BB73001F5BCD /* QMBModalNavigationController-SampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E22281FA1927BB73001F5BCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E22281FB1927BB73001F5BCD /* Foundation.framework */,
+				E22281FD1927BB73001F5BCD /* CoreGraphics.framework */,
+				E22281FF1927BB73001F5BCD /* UIKit.framework */,
+				E222821D1927BB73001F5BCD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E22282011927BB73001F5BCD /* QMBModalNavigationController-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				E222820A1927BB73001F5BCD /* AppDelegate.h */,
+				E222820B1927BB73001F5BCD /* AppDelegate.m */,
+				E222820D1927BB73001F5BCD /* Main_iPhone.storyboard */,
+				E22282101927BB73001F5BCD /* Main_iPad.storyboard */,
+				E22282131927BB73001F5BCD /* ViewController.h */,
+				E22282141927BB73001F5BCD /* ViewController.m */,
+				E22282161927BB73001F5BCD /* Images.xcassets */,
+				E22282021927BB73001F5BCD /* Supporting Files */,
+			);
+			path = "QMBModalNavigationController-Sample";
+			sourceTree = "<group>";
+		};
+		E22282021927BB73001F5BCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E22282031927BB73001F5BCD /* QMBModalNavigationController-Sample-Info.plist */,
+				E22282041927BB73001F5BCD /* InfoPlist.strings */,
+				E22282071927BB73001F5BCD /* main.m */,
+				E22282091927BB73001F5BCD /* QMBModalNavigationController-Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E22282231927BB73001F5BCD /* QMBModalNavigationController-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E22282291927BB73001F5BCD /* QMBModalNavigationController_SampleTests.m */,
+				E22282241927BB73001F5BCD /* Supporting Files */,
+			);
+			path = "QMBModalNavigationController-SampleTests";
+			sourceTree = "<group>";
+		};
+		E22282241927BB73001F5BCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E22282251927BB73001F5BCD /* QMBModalNavigationController-SampleTests-Info.plist */,
+				E22282261927BB73001F5BCD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E22281F71927BB73001F5BCD /* QMBModalNavigationController-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E222822D1927BB73001F5BCD /* Build configuration list for PBXNativeTarget "QMBModalNavigationController-Sample" */;
+			buildPhases = (
+				E22281F41927BB73001F5BCD /* Sources */,
+				E22281F51927BB73001F5BCD /* Frameworks */,
+				E22281F61927BB73001F5BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QMBModalNavigationController-Sample";
+			productName = "QMBModalNavigationController-Sample";
+			productReference = E22281F81927BB73001F5BCD /* QMBModalNavigationController-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E222821B1927BB73001F5BCD /* QMBModalNavigationController-SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22282301927BB73001F5BCD /* Build configuration list for PBXNativeTarget "QMBModalNavigationController-SampleTests" */;
+			buildPhases = (
+				E22282181927BB73001F5BCD /* Sources */,
+				E22282191927BB73001F5BCD /* Frameworks */,
+				E222821A1927BB73001F5BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E22282221927BB73001F5BCD /* PBXTargetDependency */,
+			);
+			name = "QMBModalNavigationController-SampleTests";
+			productName = "QMBModalNavigationController-SampleTests";
+			productReference = E222821C1927BB73001F5BCD /* QMBModalNavigationController-SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E22281F01927BB73001F5BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Toni Möckel";
+				TargetAttributes = {
+					E222821B1927BB73001F5BCD = {
+						TestTargetID = E22281F71927BB73001F5BCD;
+					};
+				};
+			};
+			buildConfigurationList = E22281F31927BB73001F5BCD /* Build configuration list for PBXProject "QMBModalNavigationController-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E22281EF1927BB73001F5BCD;
+			productRefGroup = E22281F91927BB73001F5BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E22281F71927BB73001F5BCD /* QMBModalNavigationController-Sample */,
+				E222821B1927BB73001F5BCD /* QMBModalNavigationController-SampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E22281F61927BB73001F5BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22282121927BB73001F5BCD /* Main_iPad.storyboard in Resources */,
+				E22282171927BB73001F5BCD /* Images.xcassets in Resources */,
+				E222820F1927BB73001F5BCD /* Main_iPhone.storyboard in Resources */,
+				E22282061927BB73001F5BCD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E222821A1927BB73001F5BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22282281927BB73001F5BCD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E22281F41927BB73001F5BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22282151927BB73001F5BCD /* ViewController.m in Sources */,
+				E222820C1927BB73001F5BCD /* AppDelegate.m in Sources */,
+				E22282081927BB73001F5BCD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22282181927BB73001F5BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E222822A1927BB73001F5BCD /* QMBModalNavigationController_SampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E22282221927BB73001F5BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E22281F71927BB73001F5BCD /* QMBModalNavigationController-Sample */;
+			targetProxy = E22282211927BB73001F5BCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E22282041927BB73001F5BCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22282051927BB73001F5BCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E222820D1927BB73001F5BCD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E222820E1927BB73001F5BCD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E22282101927BB73001F5BCD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22282111927BB73001F5BCD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E22282261927BB73001F5BCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22282271927BB73001F5BCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E222822B1927BB73001F5BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E222822C1927BB73001F5BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E222822E1927BB73001F5BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QMBModalNavigationController-Sample/QMBModalNavigationController-Sample-Prefix.pch";
+				INFOPLIST_FILE = "QMBModalNavigationController-Sample/QMBModalNavigationController-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E222822F1927BB73001F5BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QMBModalNavigationController-Sample/QMBModalNavigationController-Sample-Prefix.pch";
+				INFOPLIST_FILE = "QMBModalNavigationController-Sample/QMBModalNavigationController-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E22282311927BB73001F5BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QMBModalNavigationController-Sample.app/QMBModalNavigationController-Sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QMBModalNavigationController-Sample/QMBModalNavigationController-Sample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QMBModalNavigationController-SampleTests/QMBModalNavigationController-SampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E22282321927BB73001F5BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QMBModalNavigationController-Sample.app/QMBModalNavigationController-Sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QMBModalNavigationController-Sample/QMBModalNavigationController-Sample-Prefix.pch";
+				INFOPLIST_FILE = "QMBModalNavigationController-SampleTests/QMBModalNavigationController-SampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E22281F31927BB73001F5BCD /* Build configuration list for PBXProject "QMBModalNavigationController-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E222822B1927BB73001F5BCD /* Debug */,
+				E222822C1927BB73001F5BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E222822D1927BB73001F5BCD /* Build configuration list for PBXNativeTarget "QMBModalNavigationController-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E222822E1927BB73001F5BCD /* Debug */,
+				E222822F1927BB73001F5BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E22282301927BB73001F5BCD /* Build configuration list for PBXNativeTarget "QMBModalNavigationController-SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22282311927BB73001F5BCD /* Debug */,
+				E22282321927BB73001F5BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E22281F01927BB73001F5BCD /* Project object */;
+}

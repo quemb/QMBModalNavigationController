@@ -1,6 +1,6 @@
 # QMBModalNavigationController  #
 
-- Add a "done"-Button automatically as the left navigation bar item
+- Add a "dismiss"-Button automatically as left navigation bar item
 - Supports Font Awesome Icons
 - Simple UINavigationController Subclass
 
